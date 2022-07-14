@@ -1,0 +1,16 @@
+.header__title h4 {
+  
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .15em solid rgb(0, 255, 187);  The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: -1 10 5 5; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  
+  animation: 
+    typingn 5.5s steps(40, end),
+    /*
+    blink-caretn 0.55s step-end infinite;
+    -webkit-animation-delay: 5.7s;
+    animation-delay: 5.7s;*/
+  
+}
