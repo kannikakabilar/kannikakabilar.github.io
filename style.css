@@ -1,7 +1,7 @@
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
 
 :root {
-  --color-primary: #ffffff;
+  --color-primary: rgb(18, 0, 117);
   --color-secondary: #ffcb03;
   --color-tertiary: #ff585f;
   --color-primary-darker: #ffffff;
@@ -64,8 +64,8 @@ body {
 
 .section__description {
   font-size: 1.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 400;
+  /*text-transform: uppercase;*/
   color: var(--color-primary);
   margin-bottom: 1rem;
 }
@@ -187,6 +187,28 @@ img {
   color: white;
   border: 2px solid white;
 }
+
+.nav__link--btn_aboutme:link,
+  .nav__link--btn_aboutme:visited {
+    padding: 0.8rem 2.5rem;
+    border-color: white;
+    border-width: 20ch;
+    width: 21.5ch;
+    margin: auto;
+    border-radius: 3rem;
+    background-color: rgb(18, 0, 117);
+    color: white;
+    border: 2px solid rgb(18, 0, 117);
+    
+  }
+  
+  .nav__link--btn_aboutme:hover,
+  .nav__link--btn_aboutme:active {
+    color: inherit;
+    background-color: white;
+    color: rgb(18, 0, 117);
+    border: 2px solid rgb(18, 0, 117);
+  }
 
 /* HEADER */
 .header {
