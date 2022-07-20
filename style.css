@@ -129,7 +129,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 9rem;
+  height: 6rem;
   width: 100%;
   padding: 0 6rem;
   z-index: 100;
@@ -210,6 +210,28 @@ img {
     border: 2px solid rgb(18, 0, 117);
   }
 
+  .nav__link--btn_exp:link,
+  .nav__link--btn_exp:visited {
+    padding: 0.8rem 2.5rem;
+    border-color: white;
+    border-width: 20ch;
+    width: 25.5ch;
+    margin: auto;
+    border-radius: 3rem;
+    background-color: rgb(18, 0, 117);
+    color: white;
+    border: 2px solid rgb(18, 0, 117);
+    
+  }
+  
+  .nav__link--btn_exp:hover,
+  .nav__link--btn_exp:active {
+    color: inherit;
+    background-color: white;
+    color: rgb(18, 0, 117);
+    border: 2px solid rgb(18, 0, 117);
+  }
+
 /* HEADER */
 .header {
   padding: 0 3rem;
@@ -221,7 +243,7 @@ img {
 
 .header__title {
   flex: 1;
-  color:rgba(255, 255, 255, 0.95)
+  color:rgba(18, 0, 117, 0.95);
   max-width: 115rem;
   display: grid;
   grid-template-columns: 3fr 2fr;
@@ -394,8 +416,8 @@ h4 {
 .operations {
   max-width: 100rem;
   margin: 12rem auto 0 auto;
-
-  background-color: #fff;
+  color: white;
+  background-color: rgb(18, 0, 117);
 }
 
 .operations__tab-container {
@@ -415,23 +437,49 @@ h4 {
 }
 
 .operations__tab--1 {
-  background-color: var(--color-secondary);
+  background-color: white;
+  color: rgb(18, 0, 117);
 }
 
 .operations__tab--1:hover {
-  background-color: var(--color-secondary-darker);
+  background-color: white;
+  color: rgb(18, 0, 117);
+  border: 2px solid rgb(18, 0, 117);
+}
+
+.operations__tab--2 {
+  background-color: white;
+  color: rgb(18, 0, 117);
+  margin: 0;
+  
+}
+
+.operations__tab--2:hover {
+  background-color: white;
+  color: rgb(18, 0, 117);
+  border: 2px solid rgb(18, 0, 117);
+  
 }
 
 .operations__tab--3 {
-  background-color: var(--color-tertiary);
+  background-color: white;
+  color: rgb(18, 0, 117);
   margin: 0;
 }
 
 .operations__tab--3:hover {
-  background-color: var(--color-tertiary-darker);
+  background-color: white;
+  color: rgb(18, 0, 117);
+  border: 2px solid rgb(18, 0, 117);
 }
 
 .operations__tab--active {
+  border-color: rgb(18, 0, 117);
+  border-width: 20ch;
+  border-radius: 3rem;
+  background-color: rgb(18, 0, 117);
+  color: white;
+  border: 2px solid rgb(18, 0, 117);
   transform: translateY(-66%);
 }
 
@@ -792,4 +840,8 @@ h4 {
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.side {
+  display:inline-block;
 }
