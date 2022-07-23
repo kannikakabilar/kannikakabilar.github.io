@@ -18,14 +18,14 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <img
+        <a href="#intro"><img
           src="img/logo.png"
-          alt="Bankist logo"
+          alt="KannikaKabilar"
           class="nav__logo"
           id="logo"
           designer="Kannika"
           data-version-number="3.0"
-        />
+        /></a>
         <ul class="nav__links">
           <li class="nav__item">
             <a class="nav__link" href="#sectionk--1">About Me</a>
@@ -40,7 +40,7 @@
             <a class="nav__link" href="#section--3">Projects</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#section--3">Skills</a>
+            <a class="nav__link" href="#section--4">Skills</a>
           </li>
           <!--
           <li class="nav__item">
@@ -50,7 +50,7 @@
         </ul>
       </nav>
 
-      <div class="header__title">
+      <div class="header__title" id="intro">
         <!-- <h1 onclick="alert('HTML alert')"> -->
         <h1>Hi! I'm Kannika :)</h1>
           
@@ -62,6 +62,43 @@
           -->
         
         <h4>Welcome to my website</h4>
+        <div class="side" style="text-align:left; position: absolute; width: 35%; transform: translate(20%, 500%);">
+          <a href="https://www.linkedin.com/in/kannika-kabilar-b14b49175/"><img
+          src="img/lin.png"
+          width="70px"
+          height="70px"
+          alt="LinkedIn"
+          float="left"
+          display="inline-block"
+          text-align="left"
+          
+          
+        /></a>
+        <a href="https://github.com/kannikakabilar"><img
+          src="img/git.png"
+          width="70px"
+          height="70px"
+          alt="GitHub"
+          float="left"
+          display="inline-block"
+          text-align="left"
+          
+          
+        /></a>
+        <a href="https://kannikakabilar.medium.com/rsa-algorithm-for-network-security-de7c8fa7066"><img
+          src="img/med.png"
+          width="70px"
+          height="70px"
+          alt="Medium"
+        /></a>
+        <a href="mailto:kabilark@outlook.com"><img
+          src="img/mail.png"
+          width="70px"
+          height="70px"
+          alt="Mail"
+          
+        /></a>
+        </div>
         <button class="btn--text btn--scroll-to"></button>
         <img
           src="img/hero.png"
@@ -73,12 +110,13 @@
 
     <section class="sectionk1" id="sectionk--1">
       <div class="section__title">
+      </br></br></br>
         <!--<h2 class="section__description">About Me</h2>-->
         <h3 class="section__header">About Me</h3></br>
         <p class="section__description"> 
           Hi! I am incredibly thankful that you have taken the time to visit my website and learn more about me. While designing this site, I particularly focused on design structure to enhance your viewing experience. Let me briefly introduce myself. </br></br>My name is Kannika Kabilar. I'm an analytical and solution-oriented software engineer. I like to code ideas that help advance, and solve problems in our society. I graduated from University of Toronto with Distinction in Honors Bachelor of Science Degree. I specialized in Computer Science and completed a minor in Mathematics. I am currently working as a DevOps Engineer at Kyndryl. In my free time, I like to increase my vocabulary and learn new words. I am always looking for opportunities to apply and learn new skills.</br></br>
         </p>
-        <a class="nav__link nav__link--btn_aboutme" href="about_me.html">View more About Me</a>
+        <!--<a class="nav__link nav__link--btn_aboutme" href="about_me.html">View more AboutMe</a>-->
       </div>
       <!--
       <div class="features">
@@ -148,13 +186,14 @@
           Work Experience
         </h3></br>
         <p class="section__description"> my work experience </p>
+        
       </div>-->
     </section>
     
     
     <section class="sectionk2" id="sectionk--2">
       <div class="section__title">
-        
+      </br></br></br>
         <h3 class="section__header">
           Work Experience
         </h3> </br></br>
@@ -167,7 +206,7 @@
             <img
             src="img/kyndryl.jpg"
             width="250px"
-            height="160px"
+            height="150px"
             alt="Kyndryl"
             float="right"
             display="inline-block"
@@ -217,14 +256,36 @@
             - Documented incidents and steps taken to resolve them</br>
             Technologies: SQL, Bash scripting, DB2, Excel, Oracle Database, SAS Data Management</p>
         </p></div>
-        </br></br>
-        <a class="nav__link nav__link--btn_exp" href="about_me.html">View more on Experience</a>
-        
+        </br></br></br>
+        <!--<a class="nav__link nav__link--btn_exp" href="about_me.html">View more on Experience</a>-->
+        <h4 style="font-size:3vw;">ICUBE UTM</h4></br>
+        <ul>
+          <li style="font-size:2.5vw"><h5>Software Developer (volunteer), Dec 2017 - Apr 2021</h5></li>
+        </ul>
+        <div class="side" style="text-align:right; position: absolute; width: 15%; transform: translate(400%, 0%);">
+          <img
+          src="img/icube.png"
+          width="240px"
+          height="150px"
+          alt="ICube"
+          float="right"
+          display="inline-block"
+          text-align="right"
+          
+        /></div>
+        <div class="side">
+          <p style="font-size:1.5vw; color:rgb(18, 0, 117); width: 75%;">
+            - Led small groups (4-5 members) to develop features of a bigger team project</br>
+            - Presented specialized seminars for various business types with modelling projections on sales strategies</br>
+            - Participated in Bootcamp events by sponsored companies (ie: Microsoft, Citi, and RBC)</br>
+            Technologies: SQL, Bash scripting, DB2, Excel, Oracle Database, SAS Data Management</p>
+        </p></div>
+      </br></br>
       </div> 
     </section>
     <section class="sectionk3" id="sectionk--3">
       <div class="section__title">
-        
+        </br></br></br>
         <h3 class="section__header">
           Education
         </h3>
@@ -233,14 +294,14 @@
       <p class="section__description">
         <h4 style="font-size:3vw">University of Toronto</h4></br>
         <ul>
-          <li style="font-size:2.5vw"><h5>Honors Bachelor of Science in Computer Science, 2017-2021</h5></li>
+          <li style="font-size:2.5vw; width: 100%; word-break: keep-all;"><h5>Honors Bachelor of Science in Computer Science, 2017-2021</h5></li>
         </ul>
         <div class="side" style="text-align:left; position: absolute; width: 15%;">
           <img
           src="img/uoft.jpg"
           width="210px"
           height="190px"
-          alt="Kyndryl"
+          alt="uoft"
           float="left"
           display="inline-block"
           text-align="left"
@@ -258,9 +319,12 @@
         </br></br>
 
       </p>
+      <ul>
+        <li style="font-size:2vw"><p class="section__description">Corses Taken: Software Engineering, Operating Systems, Database Management, Machine Learning, Network & Security, Web Programming, Algorithms & Data Structures, Software Verification, Robotics</p></li>
+      </ul>
       </div>
       
-      <h5 style="font-size:2.5vw; text-align:center;">Member of the Following UofT Organizations</h5>
+      <h5 style="font-size:2.5vw; text-align:center;">Member of the Following UofT Student Organizations</h5>
         
       <div class="operations">
         <div class="operations__tab-container">
@@ -270,7 +334,7 @@
           >
           Google Developers
           </button>
-          <button class="btn operations__tab operations__tab--2" style="transform: translate(-5%, -50%);" data-tab="2">
+          <button class="btn operations__tab operations__tab--2"  data-tab="2">
           Artificial Intelligence
           </button>
           <button class="btn operations__tab operations__tab--3" data-tab="3">
@@ -285,139 +349,166 @@
           src="img/gdsc.jpg"
           width="150px"
           height="100px"
-          alt="Kyndryl"
+          alt="gdsc"
           float="left"
           display="inline-block"
           text-align="right"
           
+          
           />
-            <!--
-            <svg>
-              <use xlink:href="img/gdsc.jpg#icon-upload"></use>
-            </svg>-->
+            
           </div>
-          <h5 class="operations__header">
+          <h5 class="operations__header" style="transform: translate(5%, 0%);">
             Google Developer Student Club
           </h5>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          <p style="color: white;">
+            Google developer student club helps students learn and utilize google technologies to build solutions for businesses and community. As a member of this club, I was part of the Solution Challenge Team, where I worked on how technological resources can help end poverty (one of the 17 sustainable development goals of the UN). I helped with the Donation-Match project to provide a intermediary platform for companies and its users to securely donate and provide up-to-date details on the amount reached. <a style="color: white;" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.google.com%2Fcommunity%2Fgdsc-solution-challenge%2FUN-goals%3Ffbclid%3DIwAR0arv5EuxR43i7ckO0JC5Tx9yzELijUESicjZRzqZs4qA53Kuf5M3It3qU&h=AT36wk8PY1sOh00DEyv53bX5Bo6iQtylyscbXLJZfOpjLVOFV6gNEo5m2C_7VpG8mkAGNV0fjUrQ7w5B0iJV7MlIfc5ygYltSuIwrkidO21tekm_vhDbv20fa32NG-bxnEXyAhBd2Uc">View here</a>
           </p>
         </div>
 
         <div class="operations__content operations__content--2">
           <div class="operations__icon operations__icon--2">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-home"></use>
-            </svg>
+            <img
+          src="img/uoftai.jpg"
+          width="150px"
+          height="100px"
+          alt="UofT_AI"
+          float="left"
+          display="inline-block"
+          text-align="right"
+          
+          />
           </div>
-          <h5 class="operations__header">
+          <h5 class="operations__header" style="transform: translate(5%, 0%);">
             Artificial Intelligence Student Group
           </h5>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+          <p style="color: white;">
+            &nbsp; &nbsp; &nbsp;U of T AI is an organization run by students to expand access to AI and emphasize AI for social good. As a member, I am primarily involved in researching about revolutionary and cutting-edge technolgies. I've participated in Project X events researching on how AI can be developed into the health care field. I have also helped with the planning of AI-based startup and deploying ideas into programs. <a style="color: white;" href="https://www.uoft.ai/">View here</a>
           </p>
         </div>
         <div class="operations__content operations__content--3">
           <div class="operations__icon operations__icon--3">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-user-x"></use>
-            </svg>
+            <img
+          src="img/wics.jpg"
+          width="150px"
+          height="100px"
+          alt="UofT_AI"
+          float="left"
+          display="inline-block"
+          text-align="right"
+          
+          />
           </div>
-          <h5 class="operations__header">
-            Women in Computer Science
+          <h5 class="operations__header" style="transform: translate(5%, 0%);">
+            Women in Computer Science & Mathematics
           </h5>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+          <p style="color: white;">
+            &nbsp; &nbsp; &nbsp;WiCSM promotes women pursuing education and careers in computer science, mathematics, technology, and engineering fields. A primary objective is to provide each other guidance and support needed to succeed in achieving our ambitions while decreasing the gender gap. As a member, I’ve been on both sides of the team: receiving as well as giving which is constantly highlighted, as senior members assist juniors with course work and preparation for industrial work. <a style="color: white;" href="https://www.linkedin.com/company/uoftwics/?originalSubdomain=ca">View here</a>
           </p>
         </div>
       </div>
-    </br></br>
-    <a class="nav__link nav__link--btn_exp" href="about_me.html">View more on Education</a>
-  </br> 
+    
+    <!--<a class="nav__link nav__link--btn_exp" href="about_me.html">View more on Education</a>-->
+  
     </section>
 
     <section class="section" id="section--3">
       <div class="section__title section__title--testimonials">
         
-        <h3 class="section__header">
+        <h3 class="section__header" style="transform: translate(0%, -10%);">
           Projects
         </h3>
-        <h2 class="section__description">Not sure yet?</h2>
+        <h2 class="section__description">Checkout some exciting projects that I've recently worked on!</h2>
       </div>
 
-      <div class="slider">
+      <div class="slider" style="height: 800px;">
         <div class="slide">
-          <div class="testimonial">
-            <h5 class="testimonial__header">Best financial decision ever!</h5>
-            <blockquote class="testimonial__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Accusantium quas quisquam non? Quas voluptate nulla minima
-              deleniti optio ullam nesciunt, numquam corporis et asperiores
-              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
-              id alias reiciendis, perferendis facere pariatur dolore veniam
-              autem esse non voluptatem saepe provident nihil molestiae.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Aarav Lynn</h6>
-              <p class="testimonial__location">San Francisco, USA</p>
-            </address>
+          <div style="width: 80%; transform: translate(3%, -1%); height:100%;">
+            <h5 class="testimonial__header">Power Quencher - Virtual Menu Ordering System</h5>
+              <img
+              src="img/pq.jpg"
+              width="800px"
+              height="400px"
+              alt="Power_Quencher"
+              
+              class="center"
+              
+              />
+            <p class="testimonial__text">
+              <a style="color: rgb(18, 0, 117);" href="https://github.com/kannikakabilar/PowerQuencher">Power Quencher</a> is a Java application, a personal project that I had worked on. It allows customers to make selections of their orders and simultaneously view their receipt. I have applied User interface design to meet general specifications of clients. The application is a form of virtual menu for companies to present their service and products online. 
+            </p>
+            
           </div>
         </div>
 
         <div class="slide">
-          <div class="testimonial">
-            <h5 class="testimonial__header">
-              The last step to becoming a complete minimalist
+          <div style="width: 80%; transform: translate(3%, -100%); height:100%;">
+            <h5 class="testimonial__header" style="height: 10%;">
+              Chatle - Play Wordle and Chat
             </h5>
-            <blockquote class="testimonial__text">
-              Quisquam itaque deserunt ullam, quia ea repellendus provident,
-              ducimus neque ipsam modi voluptatibus doloremque, corrupti
-              laborum. Incidunt numquam perferendis veritatis neque repellendus.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
-              deserunt exercitationem deleniti.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Miyah Miles</h6>
-              <p class="testimonial__location">London, UK</p>
-            </address>
+            <img
+              src="img/chatle.jpg"
+              width="400px"
+              height="400px"
+              alt="Chatle"
+              class="center"
+            />
+            <p class="testimonial__text">
+              Inspired by the popular word game, Wordle - <a style="color: rgb(18, 0, 117);" href="https://github.com/kannikakabilar/Chatle">Chatle</a> is a program that allows you to play Wordle while chatting with friends and other online users. The program utilizes sockets to design a client-server model. The purpose of this project is to exemplify a Network OS, where the server contains the main program file and required resources to run the application.
+            </p>
+           
           </div>
         </div>
 
         <div class="slide">
-          <div class="testimonial">
+          <div style="width: 80%; transform: translate(3%, -200%); height:100%;">
             <h5 class="testimonial__header">
-              Finally free from old-school banks
+              Handwritten Digit Reader - Utilizes Machine Learning
             </h5>
-            <blockquote class="testimonial__text">
-              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
-              incidunt commodi architecto numquam omnis nulla autem,
-              necessitatibus blanditiis modi similique quidem. Odio aliquam
-              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
-              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
-              alias reiciendis, perferendis facere.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Francisco Gomes</h6>
-              <p class="testimonial__location">Lisbon, Portugal</p>
-            </address>
+            <img
+              src="img/digit.png"
+              width="600px"
+              height="400px"
+              alt="Digit Reader"
+              class="center"
+            />
+            <p class="testimonial__text">
+              <a style="color: rgb(18, 0, 117);" href="https://github.com/kannikakabilar/MachineLearningAlgorithm-ToReadMNISTData">Handwritten Digit Reader</a> is a python program that utilizes AI to accurately predict a computable value from an image of a handwritten digit. The program is  implemented using Machine Learning algorithms to read and train with MNIST data. It utilizes various python libraries to perform supervised and reinforced learning: tensorflow, scikit-learn, pickle, numpy, matplotlib, scipy.
+            </p>
+            
           </div>
         </div>
 
         <button class="slider__btn slider__btn--left">&larr;</button>
         <button class="slider__btn slider__btn--right">&rarr;</button>
         <div class="dots"></div>
+      </div>
+    </br></br>
+      <a class="nav__link nav__link--btn_prj" href="https://github.com/kannikakabilar?tab=repositories">View more Projects</a>
+    </section>
+
+    <section class="section" id="section--4">
+      <div class="section__title">
+        
+        <h3 class="section__header">
+          Skills
+        </h3>
+        <ul>
+          <li style="font-size:2.2vw"><h5>Programming Languages</h5></li>
+        </ul>
+        <p class="section__description">Python, C, Java, SQL, HTML & CSS, JavaScript, PHP, Shell, Assembly x86</p>
+        <ul>
+          <li style="font-size:2.2vw"><h5>Tools / Version Control</h5></li>
+        </ul>
+        <p class="section__description">GitHub, Eclipse, Linux/UNIX, JIRA, NodeJS, React, RESTful API, jQuery, Angular, JSON, Powershell</p>
+        <ul>
+          <li style="font-size:2.2vw"><h5>Business</h5></li>
+        </ul>
+        <p class="section__description">Scrum & Agile methodologies, Leadership & Team Management, Quick Learner, Efficient Problem Solving, Innovative Marketing & Presentation</p>
+        <ul>
+          <li style="font-size:2.2vw"><h5>Communication</h5></li>
+        </ul>
+        <p class="section__description">English (proficient), French (intermediate), Spanish (intermediate), Tamil (native)
       </div>
     </section>
 
@@ -427,7 +518,7 @@
           Thank you for visiting! Please let me know of any suitable opportunities.
         </h3>
       </div>
-      <button class="btn btn--show-modal">Contact Me</button>
+      <a href="mailto:kabilark@outlook.com"><button class="btn">Email Me: kabilark@outlook.com</button></a>
     </section>
 
     <footer class="footer">
@@ -436,33 +527,18 @@
           <a class="footer__link" href="#">About</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Pricing</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Terms of Use</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Privacy Policy</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Careers</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Blog</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Contact Us</a>
+          <a class="footer__link" href="mailto:kabilark@outlook.com">Contact Me</a>
         </li>
       </ul>
       <img src="img/icon.png" alt="Logo" class="footer__logo" />
       <p class="footer__copyright">
         &copy; Copyright by
         <a
-          class="footer__link twitter-link"
+          class="footer__link linkedin-link"
           target="_blank"
-          href="https://twitter.com/jonasschmedtman"
+          href="https://www.linkedin.com/in/kannika-kabilar-b14b49175/"
           >Kannika Kabilar</a
-        > Portfolio site
+        > Website
       </p>
     </footer>
 
