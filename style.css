@@ -877,9 +877,23 @@ h4 {
   display:inline-block;
 }
 
-.center {
+.center1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 80%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
