@@ -19,6 +19,7 @@
   padding: 0;
   box-sizing: inherit;
   max-width: 100%;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   
 }
