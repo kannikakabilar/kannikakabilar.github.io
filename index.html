@@ -13,15 +13,19 @@
     <link rel="stylesheet" href="style.css" />
     <title>Kannika Kabilar</title>
     <script type="text/javascript">
-
-      if (screen.availWidth <= 799) {
-        window.location = "https://developerkannikakabilar.weebly.com/";
+      function myFunction() {
+      
+        if (window.innerWidth < 1228) {
+          window.location.pathname = "/Users/kannika/Documents/kannikakabilar.github.io/index2.html";
+          //window.location = "https://developerkannikakabilar.weebly.com/";
+        }
+        //document.getElementById("demo").innerHTML = window.innerWidth;
       }
       
     </script>
     <script defer src="script.js"></script>
   </head>
-  <body>
+  <body onresize="myFunction()">
     <header class="header">
       <nav class="nav">
         <a href="#intro"><img
@@ -34,7 +38,7 @@
         /></a>
         <ul class="nav__links">
           <li class="nav__item">
-            <a class="nav__link" href="#sectionk--1">About Me</a>
+            <a id="demo" class="nav__link" href="#sectionk--1">About Me</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="#sectionk--2">Experience</a>
@@ -265,7 +269,7 @@
             - Executed Linux commands and developed shell scripts to monitor the health of AIX servers, ensuring optimal performance for running applications</br></br>
             - Worked on change tickets, facilitating the deployment of application updates (patch/bug-fixes, new-features, API-changes)</br></br>
             - Conducted code reviews to ensure compliance to coding standards and collaborated with developers to execute builds and prepare for application releases</br></br>
-            <a style="font-weight: 700;">Skills: </a>Linux, Bash Shell Scripting, Python, Jira, ServiceNow, Maven</p>
+            <a style="font-weight: 700;">Skills: </a>Linux, Bash Shell Scripting, Python, Jira, ServiceNow, Maven</br>
         </p></div>
         </br></br></br>
         <!--<a class="nav__link nav__link--btn_exp" href="about_me.html">View more on Experience</a>-->
@@ -289,7 +293,7 @@
             - Led groups (4-5 members) to develop features for startup projects</br>
             - Conducted workshops to provide guidance on how to work with VSCode, Eclipse, and GitHub</br>
             - Participated in Bootcamp events by sponsored companies (Microsoft, Citi, and RBC)</br></br>
-            <a style="font-weight: 700;">Technologies:</a> SQL, Bash scripting, DB2, Excel, Oracle Database, SAS Data Management</p>
+            <a style="font-weight: 700;">Technologies:</a> SQL, Bash scripting, DB2, Excel, Oracle Database, SAS Data Management</br>
         </p></div>
       </br></br>
       </div> 

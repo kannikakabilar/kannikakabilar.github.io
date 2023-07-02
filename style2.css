@@ -18,12 +18,19 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  max-width: 100%;
   
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  max-width: 100%;
   
 }
 
@@ -40,6 +47,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   /*backdrop-filter: blur(5px);*/
+
+  max-width: 100%;
   
   
 }
@@ -48,7 +57,7 @@ body {
 .section {
   padding: 15rem 3rem;
   border-top: 1px solid #ddd;
-
+  max-width: 100%;
   transition: transform 1s, opacity 1s;
 }
 
@@ -126,13 +135,14 @@ img {
 
 /* NAVIGATION */
 .nav {
-  display: flex;
+  display: fixed;
   justify-content: space-between;
   align-items: center;
   height: 6rem;
   width: 100%;
   padding: 0 6rem;
   z-index: 100;
+  max-width: 100%;
   /*background-color: rgba(255, 255, 255, 0.95);*/
 }
 
@@ -262,6 +272,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 100%;
 }
 
 .header__title {
@@ -291,12 +302,24 @@ h4 {
   
 }
 
+.fa {
+  padding: 1%;
+  font-size: 600%;
+  width: 40%;
+  display: inline;
+  text-decoration: none;
+  margin: 5px 2px;
+  align-self: right;
+  color:rgba(18, 0, 117, 0.95);
+}
+
+
 .header__img {
-  width: 50%;
-  grid-column: 2 / 3;
-  grid-row: 1 / span 4;
-  /*transform: translateY(-6rem);*/
-  transform: translate(20%, -20%);
+  width: 30%;
+  height: 35%;
+  /*transform: translateY(-6rem);
+  transform: translate(20%, -20%);*/
+  align-self: center;
   border-radius: 100%;
 }
 
@@ -344,8 +367,8 @@ h4 {
 .header__title2 h1 {
   
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(0, 255, 187);; /* The typwriter cursor */
-  /* white-space: nowrap;  Keeps the content on a single line */
+  border-right: .15em solid rgb(0, 255, 187); /* The typwriter cursor */
+  white-space: nowrap;  /* Keeps the content on a single line */
   margin: -1 10 5 5; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .05em; /* Adjust as needed */
   animation: 
@@ -375,9 +398,28 @@ h4 {
   50% { border-color: rgb(0, 255, 187); }
 }
 
+.header__title2 img{
+  opacity: 0;
+  animation: 
+      blank 7s,
+      fadeIn 5s;
+  animation-delay: 5.7s;
+  animation-fill-mode: both;
 
+   
+}
+.header__title2 div{
+  opacity: 0;
+  animation: 
+      blank 7s,
+      fadeIn 5s;
+  animation-delay: 5.7s;
+  animation-fill-mode: both;
 
-.header__title h4 {
+   
+}
+
+.header__title2 h4{
   opacity: 0;
   animation: 
       blank 7s,
@@ -397,10 +439,7 @@ h4 {
 }
 
 @keyframes fadeIn {
-  /*
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-  */
+
   from {
     opacity: 0;
     visibility: hidden;
@@ -439,7 +478,7 @@ h4 {
 }
 
 .features__img {
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .features__feature {
@@ -784,6 +823,7 @@ h4 {
 .footer {
   padding: 10rem 3rem;
   background-color: rgb(18, 0, 117);
+  max-width: 100%;
 }
 
 .footer__nav {

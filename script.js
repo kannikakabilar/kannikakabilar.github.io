@@ -290,6 +290,19 @@ const slider = function () {
 };
 slider();
 
+/*
+var str = "Hi! I'm Kannika :)";
+var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
+$(spans).hide().appendTo('.css-typing').each(function (i) {
+    $(this).delay(100 * i).css({
+        display: 'inline',
+        opacity: 0
+    }).animate({
+        opacity: 1
+    }, 100);
+});
+*/
+
 ///////////////////////////////////////
 ///////////////////////////////////////
 ///////////////////////////////////////
