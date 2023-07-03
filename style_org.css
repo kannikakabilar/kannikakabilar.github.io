@@ -63,7 +63,7 @@ body {
 }
 
 .section__description {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
   /*text-transform: uppercase;*/
   color: var(--color-primary);
@@ -292,13 +292,12 @@ h4 {
 }
 
 .header__img {
-  width: 55%;
+  width: 50%;
   grid-column: 2 / 3;
   grid-row: 1 / span 4;
-  /*transform: translateY(-6rem);
-  transform: translate(20%, -20%);*/
+  /*transform: translateY(-6rem);*/
+  transform: translate(20%, -20%);
   border-radius: 100%;
-
 }
 
 .highlight {
@@ -306,16 +305,7 @@ h4 {
   
 }
 
-.fa {
-  padding: 1%;
-  font-size: 600%;
-  width: 40%;
-  display: inline;
-  text-decoration: none;
-  margin: 5px 2px;
-  align-self: right;
-  color:rgba(18, 0, 117, 0.95);
-}
+
 
 .header__title h1 {
   
@@ -351,25 +341,40 @@ h4 {
   50% { border-color: rgb(0, 255, 187); }
 }
 
-.header__title img {
-  opacity: 0;
+.header__title2 h1 {
+  
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(0, 255, 187);; /* The typwriter cursor */
+  /* white-space: nowrap;  Keeps the content on a single line */
+  margin: -1 10 5 5; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
   animation: 
-      blank 7s,
-      fadeIn 5s;
-  animation-delay: 5.7s;
-  animation-fill-mode: both;
-   
+    typing 5.5s steps(40, end),
+    blink-caret 0.55s step-end infinite;
 }
 
-.header__title i {
-  opacity: 0;
-  animation: 
-      blank 7s,
-      fadeIn 5s;
-  animation-delay: 5.7s;
-  animation-fill-mode: both;
-   
+/* The typing effect */
+@keyframes typing {
+  from { 
+    max-width: 0; 
+  }
+  to { 
+    max-width: 100%; 
+  }
 }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from {
+    border-color: transparent; 
+  }
+  to { 
+    border-color: transparent;
+    
+  }
+  50% { border-color: rgb(0, 255, 187); }
+}
+
 
 
 .header__title h4 {

@@ -12,20 +12,16 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_org.css" />
     <title>Kannika Kabilar</title>
     <script type="text/javascript">
       function myFunction() {
       
-        if (window.innerWidth < 821) {
-            //window.location.pathname = "/Users/kannika/Documents/kannikakabilar.github.io/index4.html";
-            window.location = "https://kannikakabilar.github.io/index4.html";
-        }
-        else if (window.innerWidth < 1079) {
-            //window.location.pathname = "/Users/kannika/Documents/kannikakabilar.github.io/index2.html";
-            window.location = "https://kannikakabilar.github.io/index2.html";
-        }
-        //document.getElementById("demo").innerHTML = window.innerWidth;
+            if (window.innerWidth < 1228) {
+                //window.location.pathname = "/Users/kannika/Documents/kannikakabilar.github.io/index.html";
+                window.location = "https://kannikakabilar.github.io/index2.html";
+            }
+            //document.getElementById("demo").innerHTML = window.innerWidth;
       }
       myFunction();
       
@@ -57,165 +53,266 @@
             <a class="nav__link" href="#section--3">Projects</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#sectionk--4">Skills</a>
+            <a class="nav__link" href="#section--4">Skills</a>
           </li>
+          <!--
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#">Contact</a>
+          </li>
+        -->
         </ul>
       </nav>
 
-      <div class="header__title" id="intro" style="width: 90%; display: inline-flex;">
-      
-        <div style="padding-left: 5%;">
-        </br></br></br>
-          <h1>Hi! I'm Kannika :)</h1>
-          <h4>&emsp;Welcome to my website</h4>
-        </br></br>
-        <div style="display: inline; padding-left: 12%; padding-bottom: 20%;">
-          <a href="https://www.linkedin.com/in/kannika-kabilar-b14b49175/"><i class="fa fa-linkedin-square"></i></a>
-          <a href="https://github.com/kannikakabilar"><i class="fa fa-github-square"></i></a>
-          <a href="https://kannikakabilar.medium.com/rsa-algorithm-for-network-security-de7c8fa7066"><i class="fa fa-medium-square"></i></a>
-          <a href="mailto:kabilark@outlook.com"><i class="fa fa-envelope"></i></a>
+      <div class="header__title" id="intro" >
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>Hi! I'm Kannika :)</h1>
+          
+          <!-- Green highlight effect 
+            Welcome to my website
+          <span class="highlight">Kannika</span>
+          <br />
+          <span class="highlight">Kabilar</span>
+          -->
+        
+        <h4>Welcome to my website</h4>
+        <div class="side" style="text-align:left; position: absolute; width: 35%; transform: translate(20%, 500%);">
+          <a href="https://www.linkedin.com/in/kannika-kabilar-b14b49175/"><img
+          src="img/lin.png"
+          width="70px"
+          height="70px"
+          alt="LinkedIn"
+          float="left"
+          display="inline-block"
+          text-align="left"
+          
+          
+        /></a>
+        <a href="https://github.com/kannikakabilar"><img
+          src="img/git.png"
+          width="70px"
+          height="70px"
+          alt="GitHub"
+          float="left"
+          display="inline-block"
+          text-align="left"
+          
+          
+        /></a>
+        <a href="https://kannikakabilar.medium.com/rsa-algorithm-for-network-security-de7c8fa7066"><img
+          src="img/med.png"
+          width="70px"
+          height="70px"
+          alt="Medium"
+        /></a>
+        <a href="mailto:kabilark@outlook.com"><img
+          src="img/mail.png"
+          width="70px"
+          height="70px"
+          alt="Mail"
+          
+        /></a>
         </div>
-      </div>
-      
         <button class="btn--text btn--scroll-to"></button>
-      </br></br></br>
-      <div>
-        <br><br><br>
-        &emsp;&emsp;&emsp;&emsp;&emsp;
         <img
           src="img/kannika.jpg"
           class="header__img"
           alt="Kannika Kabilar"
         />
       </div>
-      </div>
     </header>
 
     <section class="sectionk1" id="sectionk--1">
-    
+      <div class="section__title">
       </br></br></br>
-      <div style="width: 90%; padding-left: 5%;">
+        <!--<h2 class="section__description">About Me</h2>-->
         <h3 class="section__header">About Me</h3></br>
         <p class="section__description"> 
           Hi! I am incredibly thankful that you have taken the time to visit my website and learn more about me. Keeping UI/UX in mind, I designed this portfolio site to enhance your viewing experience. Let me briefly introduce myself. </br></br>My name is Kannika Kabilar. I'm a solution-oriented Software Engineer who is also skilled in working with DevOps concepts. I like to code ideas that help advance, and solve problems in our society. I graduated from University of Toronto with a degree in Honors Bachelor of Science with Distinction. I specialized in Computer Science and completed a minor in Mathematics. I am currently working as a 
         Software Engineer at Kyndryl. In my free time, I like to increase my vocabulary and learn new words. I am always looking for opportunities to apply and learn new skills.</br></br>
         </p>
+        <!--<a class="nav__link nav__link--btn_aboutme" href="about_me.html">View more AboutMe</a>-->
       </div>
+      <!--
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">University of Toronto Graduate</h5>
+          <p>
+            I graduated from University of Toronto with 
+            Honors Bachelor of Science degree specializing in Computer Science.
+            I received distinction for achieving a GPA of 3.88/4.0
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Google Student Developer Club</h5>
+          <p>
+            Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+            inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+            quibusdam!
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">ICUBE Startup Team</h5>
+          <p>
+            Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+            eveniet consequatur odit quam quos possimus assumenda dicta fuga
+            inventore ab.
+          </p>
+        </div>
+      </div> 
+      <div class="section__title">
+        <h2 class="section__description">Experience</h2>
+        <h3 class="section__header">
+          Work Experience
+        </h3></br>
+        <p class="section__description"> my work experience </p>
         
+      </div>-->
     </section>
     
     
     <section class="sectionk2" id="sectionk--2">
-    </br></br>
-    <div style="width: 90%; padding-left: 5%;">
-    <h3 class="section__header">Work Experience</h3></br>
-    
-    <h4 style="font-size:3rem">Kyndryl</h4></br>
-    <div style="display: inline-flex; padding-left: 5%;">
-      <ul style="display: inline-flex; ">
-        <li style="font-size:2.5rem; padding-right: 5rem;"><h5>Software Engineer, Jun 2022 - present</h5></li>
-      </ul>
-      <img
+      <div class="section__title">
+      </br></br></br>
+        <h3 class="section__header">
+          Work Experience
+        </h3> </br></br>
+        <p class="section__description">  
+          <h4 style="font-size:3vw">Kyndryl</h4></br>
+          <ul>
+            <li style="font-size:2.5vw"><h5>Software Engineer, Jun 2022 - present</h5></li>
+          </ul>
+          <div class="side" style="text-align:right; position: absolute; width: 15%; transform: translate(400%, 0%);">
+            <img
             src="img/kyndryl.jpg"
-            width="180px"
-            height="100px"
+            width="250px"
+            height="150px"
             alt="Kyndryl"
             float="right"
-            display="inline-flex"
+            display="inline-block"
             text-align="right"
             
-      />
-    </div></br></br>
-    <p class="section__description"> 
-      - DevOps: Constructed end-to-end CI/CD pipelines for automated building, testing, checking code-quality, provisioning infrastructure, and deployment of applications </br></br>
-      - DevOps: Containerized applications (creating containers, uploading images, and writing Dockerfiles) to enable portable software deployments as well as handled pods, services, and deployments within Kubernetes cluster in PROD </br></br>
-      - Developed features and deliverables for JavaEE applications integrating Spring Boot and responsive financial web applications with React/JavaScript </br></br>
-      - Implemented RESTful API endpoints with HTTP methods for web services interconnecting microservices, and deployed service to AWS EC2 </br></br>
-      - Collaborated in Agile teams, participated in daily stand-ups, presented demo of deliverables at sprint reviews, and designed Kanban for sprint planning </br></br>
-      <a style="font-weight: 700;">Skills: </a> JavaScript, Java, DevOps, RESTful APIs, AWS
-    </p>
-  </br></br>
-    <h4 style="font-size:3rem">TD Financial Bank</h4></br>
-    <div style="display: inline-flex; padding-left: 5%;">
-      <ul style="display: inline-flex; ">
-        <li style="font-size:2.5rem; padding-right: 5rem;"><h5>IT Developer (Full Stack), Dec 2021 - Jun 2022</h5></li>
-      </ul>
-      <img
-            src="img/td.jpg"
-            width="140px"
-            height="100px"
-            alt="Kyndryl"
-            float="right"
-            display="inline-flex"
-            text-align="right"
-            
-      />
-    </div></br></br>
-    <p class="section__description"> 
-      - Experienced working on Java/JavaEE applications to add features and functionalities based on project deliverables</br></br>
+          /></div>
+          <div class="side">
+          <p style="font-size:1.5vw; color:rgb(18, 0, 117); width: 75%;"></br>
+            - DevOps: Constructed end-to-end CI/CD pipelines for automated building, testing, checking code-quality, provisioning infrastructure, and deployment of applications </br></br>
+            - DevOps: Containerized applications (creating containers, uploading images, and writing Dockerfiles) to enable portable software deployments as well as handled pods, services, and deployments within Kubernetes cluster in PROD </br></br>
+            - Developed features and deliverables for JavaEE applications integrating Spring Boot and responsive financial web applications with React/JavaScript </br></br>
+            - Implemented RESTful API endpoints with HTTP methods for web services interconnecting microservices, and deployed service to AWS EC2 </br></br>
+            - Collaborated in Agile teams, participated in daily stand-ups, presented demo of deliverables at sprint reviews, and designed Kanban for sprint planning </br></br>
+            <a style="font-weight: 700;">Skills: </a> JavaScript, Java, DevOps, RESTful APIs, AWS</p>
+        </p></div>
+        
+        </br></br></br>
+        <h4 style="font-size:3vw;">TD Financial Bank</h4></br>
+        <ul>
+          <li style="font-size:2.5vw"><h5>IT Developer (Full Stack), Dec 2021 - Jun 2022</h5></li>
+        </ul>
+        <div class="side" style="text-align:right; position: absolute; width: 15%; transform: translate(400%, 0%);">
+          <img
+          src="img/td.jpg"
+          width="230px"
+          height="170px"
+          alt="Kyndryl"
+          float="right"
+          display="inline-block"
+          text-align="right"
+          
+        /></div>
+        <div class="side">
+          <p style="font-size:1.5vw; color:rgb(18, 0, 117); width: 76%;"></br>
+            - Experienced working on Java/JavaEE applications to add features and functionalities based on project deliverables</br></br>
             - Handled JIRA tickets that focus on developing UI and features for TD webpages using ReactJS, jQuery, AJAX, Next.js, and HTML DOM</br></br>
             - Effectively wrote *.ddl and *.sql scripts to execute CRUD SQL commands to cleanup PROD data from lower environments, increasing efficiency by 60%</br></br>
             - Wrote algorithms to differentiate PROD data from Test data and created Python scripts using Pandas that read, update, and write data to CSV files</br></br>
             <a style="font-weight: 700;">Skills: </a>Java, JavaScript, SQL, Pandas Python, Linux</p>
-    </p></br></br>
-    <div style="display: inline-flex; padding-left: 5%;">
-      <ul style="display: inline-flex; ">
-        <li style="font-size:2.5rem; padding-right: 5rem;"><h5>IT Analyst, Jun 2021 - Nov 2021</h5></li>
-      </ul>
-      <img
-            src="img/td.jpg"
-            width="140px"
-            height="100px"
-            alt="Kyndryl"
-            float="right"
-            display="inline-flex"
-            text-align="right"
-            
-      />
-    </div></br></br>
-    <p class="section__description"> 
-      - Handled ServiceNow tickets to assist clients with user issues (ie: enabling permission/access, troubleshooting applications) in production within timeline/SLA</br></br>
-      - Executed Linux commands and developed shell scripts to monitor the health of AIX servers, ensuring optimal performance for running applications</br></br>
-      - Worked on change tickets, facilitating the deployment of application updates (patch/bug-fixes, new-features, API-changes)</br></br>
-      - Conducted code reviews to ensure compliance to coding standards and collaborated with developers to execute builds and prepare for application releases</br></br>
-      <a style="font-weight: 700;">Skills: </a>Linux, Bash Shell Scripting, Python, Jira, ServiceNow, Maven</br>
-    </p></br></br>
-    <h4 style="font-size:3rem">ICUBE UTM</h4></br>
-    <div style="display: inline-flex; padding-left: 5%;">
-      <ul style="display: inline-flex; ">
-        <li style="font-size:2.5rem; padding-right: 5rem;"><h5>Software Developer (volunteer), Dec 2017 - Apr 2021</h5></li>
-      </ul>
-      <img
-            src="img/icubeutm.png"
-            width="280px"
-            height="100px"
-            alt="Kyndryl"
-            float="right"
-            display="inline-flex"
-            text-align="right"
-            
-      />
-    </div></br>
-    <p class="section__description"> 
-      - Led groups (4-5 members) to develop features for startup projects</br>
-      - Conducted workshops to provide guidance on how to work with VSCode, Eclipse, and GitHub</br>
-      - Participated in Bootcamp events by sponsored companies (Microsoft, Citi, and RBC)</br></br>
-      <a style="font-weight: 700;">Technologies:</a> SQL, Bash scripting, DB2, Excel, Oracle Database, SAS Data Management</br>
-    </p>
-    </section>
-
-
-    <section class="sectionk3" id="sectionk--3" >
-      <div style="width: 90%; padding-left: 5%;">
+        </p></div>
+        
+        </br></br>
+        <ul>
+          <li style="font-size:2.5vw"><h5>IT Analyst, Jun 2021 - Nov 2021</h5></li>
+        </ul>
+        <div>
+          <p style="font-size:1.5vw; color:rgb(18, 0, 117); width: 85%;"></br>
+            - Handled ServiceNow tickets to assist clients with user issues (ie: enabling permission/access, troubleshooting applications) in production within timeline/SLA</br></br>
+            - Executed Linux commands and developed shell scripts to monitor the health of AIX servers, ensuring optimal performance for running applications</br></br>
+            - Worked on change tickets, facilitating the deployment of application updates (patch/bug-fixes, new-features, API-changes)</br></br>
+            - Conducted code reviews to ensure compliance to coding standards and collaborated with developers to execute builds and prepare for application releases</br></br>
+            <a style="font-weight: 700;">Skills: </a>Linux, Bash Shell Scripting, Python, Jira, ServiceNow, Maven</br>
+        </p></div>
         </br></br></br>
-        <h3 class="section__header">Education</h3>
+        <!--<a class="nav__link nav__link--btn_exp" href="about_me.html">View more on Experience</a>-->
+        <h4 style="font-size:3vw;">ICUBE UTM</h4></br>
+        <ul>
+          <li style="font-size:2.5vw"><h5>Software Developer (volunteer), Dec 2017 - Apr 2021</h5></li>
+        </ul>
+        <div class="side" style="text-align:right; position: absolute; width: 15%; transform: translate(400%, 0%);">
+          <img
+          src="img/icube.png"
+          width="240px"
+          height="150px"
+          alt="ICube"
+          float="right"
+          display="inline-block"
+          text-align="right"
+          
+        /></div>
+        <div class="side">
+          <p style="font-size:1.5vw; color:rgb(18, 0, 117); width: 75%;"></br>
+            - Led groups (4-5 members) to develop features for startup projects</br>
+            - Conducted workshops to provide guidance on how to work with VSCode, Eclipse, and GitHub</br>
+            - Participated in Bootcamp events by sponsored companies (Microsoft, Citi, and RBC)</br></br>
+            <a style="font-weight: 700;">Technologies:</a> SQL, Bash scripting, DB2, Excel, Oracle Database, SAS Data Management</br>
+        </p></div>
+      </br></br>
+      </div> 
+    </section>
+    <section class="sectionk3" id="sectionk--3">
+      <div class="section__title">
+        </br></br></br>
+        <h3 class="section__header">
+          Education
+        </h3>
       
       </br></br>
-      <div style="padding-left: 5%">
       <p class="section__description">
-        <h4 style="font-size:3rem">University of Toronto</h4></br>
+        <h4 style="font-size:3vw">University of Toronto</h4></br>
         <ul>
-          <li style="font-size:2.5rem; width: 100%; word-break: keep-all;"><h5>Honors Bachelor of Science in Computer Science, 2017-2021</h5></li>
+          <li style="font-size:2.5vw; width: 100%; word-break: keep-all;"><h5>Honors Bachelor of Science in Computer Science, 2017-2021</h5></li>
         </ul>
         <div class="side" style="text-align:left; position: absolute; width: 15%;">
           <img
@@ -229,7 +326,7 @@
           
         /></div>
         <div class="side">
-          <p class="section__description" style="font-size:1.5rem; transform: translate(45%, 0%); color:rgb(18, 0, 117); width: 70%;">
+          <p style="font-size:1.5vw; transform: translate(45%, 0%); color:rgb(18, 0, 117); width: 70%;">
             - <a style="font-weight: 700;">GPA:</a> 3.88/4.0</br>
             - University of Toronto's Dean's List Scholar</br>
             - <a href="https://www.utm.utoronto.ca/math-cs-stats/awards/honour-roll/2017-2018">UofT Honor Roll</a></br>
@@ -240,14 +337,13 @@
         </br></br>
 
       </p>
-    </br>
-      <ul class="section__description">
-        <a style="font-weight: 700;"><p class="section__description">Courses Taken: <a>Software Engineering, Operating Systems, Database Management, Machine Learning, Network & Security, Web Programming, Algorithms & Data Structures, Software Verification, Robotics</a></p></li>
+      <ul>
+        <li style="font-size:2vw"><p class="section__description">Courses Taken: <a style="font-weight: 100;">Software Engineering, Operating Systems, Database Management, Machine Learning, Network & Security, Web Programming, Algorithms & Data Structures, Software Verification, Robotics</a></p></li>
       </ul>
       </div>
-    </br></br>
-      <h5 style="font-size:2.5rem; text-align:center;">Member of the Following UofT Student Organizations</h5>
-    </div> 
+      
+      <h5 style="font-size:2.5vw; text-align:center;">Member of the Following UofT Student Organizations</h5>
+        
       <div class="operations">
         <div class="operations__tab-container">
           <button
@@ -409,40 +505,39 @@
       <a class="nav__link nav__link--btn_prj" href="https://github.com/kannikakabilar?tab=repositories">View more Projects</a>
     </section>
 
-
-    <section class="sectionk" id="sectionk--4">
-    </br></br>
-    <div style="width: 90%; padding-left: 5%;">
-    <h3 class="section__header">Skills</h3></br>
-    <ul>
-      <li style="font-size:2.2rem"><h5>Programming Languages</h5></li>
-    </ul>
-    <p class="section__description">JavaScript, TypeScript, HTML DOM & CSS, Java, C#, C, Python, MongoDB, MySQL, PostgreSQL, Bash Shell Scripting, Assembly x86</p>
-    <ul>
-      <li style="font-size:2.2rem"><h5>Frameworks</h5></li>
-    </ul>
-    <p class="section__description">React, Angular, Node.js, Express.js, Spring Boot, ASP.NET, Django, Pandas, Numpy</p>
-    <ul>
-      <li style="font-size:2.2rem"><h5>DevOps</h5></li>
-    </ul>
-    <p class="section__description">YAML, Docker, Kubernetes, Jenkins, GitHub Actions, Ansible, Terraform, Circle CI, GitOps, GitLab</p>
-    <ul>
-      <li style="font-size:2.2rem"><h5>Tools</h5></li>
-    </ul>
-    <p class="section__description">AWS Infrastructure, JSON, jQuery, AJAX, Maven, Gradle, Jira, Selenium, TestNG, WebDriver, SOAP UI, Linux</p>
-    <!-- GitHub, Eclipse, Linux/UNIX, JIRA, NodeJS, React, RESTful API, jQuery, Angular, JSON, Powershell -->
-    <ul>
-      <li style="font-size:2.2rem"><h5>Business</h5></li>
-    </ul>
-    <p class="section__description">Scrum planning using Kanban, Working in Agile teams, Presenting Deliverables</p>
-    <ul>
-      <li style="font-size:2.2rem"><h5>Communication</h5></li>
-    </ul>
-    <p class="section__description">English (proficient), French (intermediate), Spanish (intermediate), Tamil (native)</p>
-
-    </div>
+    <section class="section" id="section--4">
+      <div class="section__title">
+        
+        <h3 class="section__header">
+          Skills
+        </h3>
+        <ul>
+          <li style="font-size:2.2vw"><h5>Programming Languages</h5></li>
+        </ul>
+        <p class="section__description">JavaScript, TypeScript, HTML DOM & CSS, Java, C#, C, Python, MongoDB, MySQL, PostgreSQL, Bash Shell Scripting, Assembly x86</p>
+        <ul>
+          <li style="font-size:2.2vw"><h5>Frameworks</h5></li>
+        </ul>
+        <p class="section__description">React, Angular, Node.js, Express.js, Spring Boot, ASP.NET, Django, Pandas, Numpy</p>
+        <ul>
+          <li style="font-size:2.2vw"><h5>DevOps</h5></li>
+        </ul>
+        <p class="section__description">YAML, Docker, Kubernetes, Jenkins, GitHub Actions, Ansible, Terraform, Circle CI, GitOps, GitLab</p>
+        <ul>
+          <li style="font-size:2.2vw"><h5>Tools</h5></li>
+        </ul>
+        <p class="section__description">AWS Infrastructure, JSON, jQuery, AJAX, Maven, Gradle, Jira, Selenium, TestNG, WebDriver, SOAP UI, Linux</p>
+        <!-- GitHub, Eclipse, Linux/UNIX, JIRA, NodeJS, React, RESTful API, jQuery, Angular, JSON, Powershell -->
+        <ul>
+          <li style="font-size:2.2vw"><h5>Business</h5></li>
+        </ul>
+        <p class="section__description">Scrum planning using Kanban, Working in Agile teams, Presenting Deliverables</p>
+        <ul>
+          <li style="font-size:2.2vw"><h5>Communication</h5></li>
+        </ul>
+        <p class="section__description">English (proficient), French (intermediate), Spanish (intermediate), Tamil (native)
+      </div>
     </section>
-
 
     <section class="section section--sign-up">
       <div class="section__title">
