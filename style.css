@@ -91,6 +91,8 @@ body {
 
 .btn:hover {
   background-color: var(--color-primary-darker);
+  color: rgb(18, 0, 117);
+  border: 2px solid rgb(18, 0, 117);
 }
 
 .btn--text {
@@ -129,7 +131,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 6rem;
+  height: 4rem;
   width: 100%;
   padding: 0 6rem;
   z-index: 100;
@@ -143,7 +145,7 @@ img {
 }
 
 .nav__logo {
-  height: 6rem;
+  height: 4rem;
   transition: all 0.3s;
 }
 
@@ -815,7 +817,7 @@ h4 {
   font-size: 1.4rem;
 }
 
-/* MODAL WINDOW */
+/* MODAL WINDOW 
 .modal {
   position: fixed;
   top: 50%;
@@ -888,7 +890,7 @@ h4 {
 .hidden {
   visibility: hidden;
   opacity: 0;
-}
+}*/
 
 /* COOKIE MESSAGE */
 .cookie-message {
