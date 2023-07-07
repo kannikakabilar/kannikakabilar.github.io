@@ -293,6 +293,13 @@ h4 {
   
 }
 
+.mylink {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(18, 0, 117, 0.911);
+}
+
 .header__img {
   width: 55%;
   grid-column: 2 / 3;

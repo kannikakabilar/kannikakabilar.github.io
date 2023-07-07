@@ -20,11 +20,11 @@
       
         if (window.innerWidth < 821) {
             //window.location.pathname = "/Users/kannika/Documents/kannikakabilar.github.io/index4.html";
-            window.location = "https://kannikakabilar.github.io/index4.html";
+            //window.location = "https://kannikakabilar.github.io/index4.html";
         }
         else if (window.innerWidth < 1079) {
             //window.location.pathname = "/Users/kannika/Documents/kannikakabilar.github.io/index2.html";
-            window.location = "https://kannikakabilar.github.io/index2.html";
+            //window.location = "https://kannikakabilar.github.io/index2.html";
         }
         //document.getElementById("demo").innerHTML = window.innerWidth;
       }
@@ -36,14 +36,14 @@
   <body onresize="myFunction()">
     <header class="header">
       <nav class="nav">
-        <a href="#intro"><img
-          src="img/logo.png"
+        <a class="mylink" href="#intro"><img
+          src="img/icon.png"
           alt="KannikaKabilar"
           class="nav__logo"
           id="logo"
           designer="Kannika"
           data-version-number="3.0"
-        /></a>
+        />Kannika Kabilar</a>
         <ul class="nav__links">
           <li class="nav__item">
             <a id="demo" class="nav__link" href="#sectionk--1">About Me</a>
@@ -472,6 +472,7 @@
           <li style="font-size:2.5rem"><h5>JournalPage</h5></li>
         </ul>
       </div>
+      <p class="section__description" style="width: 90%; padding-left: 5%;">JournalPage is a MERN-stack social media app that allows users to post and share reviews about products, services, and organizations.</p>
       <div class="slideshow-container">
         <div class="mySlides fade">
           <div class="numbertext">1 / 5</div>
@@ -509,12 +510,13 @@
         <span class="dot" onclick="currentSlide(4)"></span>
         <span class="dot" onclick="currentSlide(5)"></span>
       </div>
-      <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      
       <div style="width: 90%; padding-left: 5%;">
         <ul>
           <li style="font-size:2.5rem"><h5>ChatGPT: SmartChat</h5></li>
         </ul>
       </div>
+      <p class="section__description" style="width: 90%; padding-left: 5%;">I implemented my version of ChatGPT: SmartChat using OpenAI's API. Information is sent and received using functions implemented in JavaScript with Node and Express used for backend and Vanilla used for frontend.</p>
       <div class="slideshow-container">
         <div class="mySlides2 fade">
           <div class="numbertext">1 / 5</div>
@@ -552,13 +554,13 @@
         <span class="dot2" onclick="currentSlide2(4)"></span>
         <span class="dot2" onclick="currentSlide2(5)"></span>
       </div>
-      <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
       <div style="width: 90%; padding-left: 5%;">
         <ul>
           <li style="font-size:2.5rem"><h5>KanDash</h5></li>
         </ul>
       </div>
+      <p class="section__description" style="width: 90%; padding-left: 5%;">I built an advanced admin dashboard using React. Completely responsive and mobile friendly. It utilizes React Hooks & components, and Syncfusion for UI components.</p>
         <div class="slideshow-container">
           <div class="mySlides3 fade">
             <div class="numbertext">1 / 5</div>
@@ -596,13 +598,13 @@
           <span class="dot3" onclick="currentSlide3(4)"></span>
           <span class="dot3" onclick="currentSlide3(5)"></span>
         </div>
-        <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
         <div style="width: 90%; padding-left: 5%;">
           <ul>
             <li style="font-size:2.5rem"><h5>IQTech</h5></li>
           </ul>
         </div>
+        <p class="section__description" style="width: 90%; padding-left: 5%;">A web app that allows users to share tech posts. The app is built using ASP.NET core in C# and it implements MVC design pattern. SQL is used to store and access records in database.</p>
           <div class="slideshow-container">
             <div class="mySlides4 fade">
               <div class="numbertext">1 / 5</div>
@@ -640,13 +642,13 @@
             <span class="dot4" onclick="currentSlide4(4)"></span>
             <span class="dot4" onclick="currentSlide4(5)"></span>
           </div>
-          <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
           <div style="width: 90%; padding-left: 5%;">
             <ul>
-              <li style="font-size:2.5rem"><h5>UofT Club Signup App</h5></li>
+              <li style="font-size:2.5rem"><h5>UofT GDSC Signup App</h5></li>
             </ul>
           </div>
+          <p class="section__description" style="width: 90%; padding-left: 5%;">A signup app that allows University of Toronto students to join the Google Developer Student Club. It is implemented using Python's Django Framework, HTML and, CSS.</p>
             <div class="slideshow-container">
               <div class="mySlides5 fade">
                 <div class="numbertext">1 / 5</div>
@@ -684,13 +686,14 @@
               <span class="dot5" onclick="currentSlide5(4)"></span>
               <span class="dot5" onclick="currentSlide5(5)"></span>
             </div>
-            <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            
 
             <div style="width: 90%; padding-left: 5%;">
               <ul>
                 <li style="font-size:2.5rem"><h5>KanCakes</h5></li>
               </ul>
             </div>
+            <p class="section__description" style="width: 90%; padding-left: 5%;">An ecommerce website for selling bakery goods. It is coded using Angular15 framework for frontend</p>
               <div class="slideshow-container">
                 <div class="mySlides6 fade">
                   <div class="numbertext">1 / 5</div>
@@ -728,13 +731,14 @@
                 <span class="dot6" onclick="currentSlide6(4)"></span>
                 <span class="dot6" onclick="currentSlide6(5)"></span>
               </div>
-              <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              
 
               <div style="width: 90%; padding-left: 5%;">
                 <ul>
                   <li style="font-size:2.5rem"><h5>Chatle</h5></li>
                 </ul>
               </div>
+              <p class="section__description" style="width: 90%; padding-left: 5%;">A program that allows you to play Wordle while chatting with friends. It is implemented using the client-server architecture with Python's websockets.</p>
                 <div class="slideshow-container">
                   <div class="mySlides7 fade">
                     <div class="numbertext">1 / 4</div>
@@ -766,13 +770,14 @@
                   <span class="dot7" onclick="currentSlide7(3)"></span>
                   <span class="dot7" onclick="currentSlide7(4)"></span>
                 </div>
-                <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                
 
         <div style="width: 90%; padding-left: 5%;">
           <ul>
             <li style="font-size:2.5rem"><h5>Operating System Activities</h5></li>
           </ul>
         </div>
+        <p class="section__description" style="width: 90%; padding-left: 5%;">A collection of projects relating to OS concepts: CPU Synchronization, Multithreading, RAM Page Handling, Handling Batch Jobs.</p>
           <div class="slideshow-container">
             <div class="mySlides8 fade">
               <div class="numbertext">1 / 4</div>
@@ -804,13 +809,14 @@
             <span class="dot8" onclick="currentSlide8(3)"></span>
             <span class="dot8" onclick="currentSlide8(4)"></span>
           </div>
-          <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          
 
           <div style="width: 90%; padding-left: 5%;">
             <ul>
               <li style="font-size:2.5rem"><h5>Assembly Activities</h5></li>
             </ul>
           </div>
+          <p class="section__description" style="width: 90%; padding-left: 5%;">Collection of projects implemented using the low-level Assembly language and circuits that I have designed using Logisim that depicts the various functionality of a processor.</p>
             <div class="slideshow-container">
               <div class="mySlides9 fade">
                 <div class="numbertext">1 / 5</div>
@@ -848,13 +854,14 @@
               <span class="dot9" onclick="currentSlide9(4)"></span>
               <span class="dot9" onclick="currentSlide9(5)"></span>
             </div>
-            <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            
 
         <div style="width: 90%; padding-left: 5%;">
           <ul>
             <li style="font-size:2.5rem"><h5>Power Quencher</h5></li>
           </ul>
         </div>
+        <p class="section__description" style="width: 90%; padding-left: 5%;">A Java application, that allows companies to present their service and products online for their consumers. GUI: JavaFx; Design Pattern: Model-View-Controller</p>
           <div class="slideshow-container">
             <div class="mySlides10 fade">
               <div class="numbertext">1 / 1</div>
@@ -869,7 +876,7 @@
           <div style="text-align:center">
             <span class="dot10" onclick="currentSlide10(1)"></span>
           </div>
-          <p class="section__description" style="width: 90%; padding-left: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          
           <br><br><br>
           <div style="text-align: center;"><a class="btn" style="color: azure;" href="https://github.com/kannikakabilar?tab=repositories">View More Projects</a><br><br><br><br>
           </div>
@@ -893,46 +900,7 @@
         > Website
       </p>
 
-    <!--<footer class="footer">
-      <ul class="footer__nav">
-        <li class="footer__item">
-          <a class="footer__link" href="#">About</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="mailto:kabilark@outlook.com">Contact Me</a>
-        </li>
-      </ul>
-      <img src="img/icon.png" alt="Logo" class="footer__logo" />
-      <p class="footer__copyright">
-        &copy; Copyright by
-        <a
-          class="footer__link linkedin-link"
-          target="_blank"
-          href="https://www.linkedin.com/in/kannika-kabilar-b14b49175/"
-          >Kannika Kabilar</a
-        > Website
-      </p>
-    </footer>-->
   </section>
-  
 
-    <!--<div class="modal hidden">
-      <button class="btn--close-modal">&times;</button>
-      <h2 class="modal__header">
-        <span class="highlight">Contact Information</span>
-      </h2>
-      <form class="modal__form">
-        <label>Email: kabilark@outlook.com</label>
-        
-        <label>Last Name</label>
-        <input type="text" />
-        <label>Email Address</label>
-        <input type="email" />
-        <button class="btn" href="https://www.linkedin.com/in/kannika-kabilar-b14b49175/">LinkedIn &rarr;</button>
-      </form>
-    </div>
-    <div class="overlay hidden"></div>
-
-     <script src="script.js"></script> -->
   </body>
 </html>
