@@ -82,7 +82,7 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: var(--color-primary);
+  background-color: rgb(18, 0, 117);
   font-size: 1.6rem;
   font-family: inherit;
   font-weight: 500;
@@ -91,11 +91,13 @@ body {
   border-radius: 10rem;
   cursor: pointer;
   transition: all 0.3s;
+  color: azure;
 }
 
 .btn:hover {
-  background-color: var(--color-primary-darker);
+  background-color: azure;
   color: rgb(18, 0, 117);
+  text-decoration-color: rgb(18, 0, 117);
   border: 2px solid rgb(18, 0, 117);
 }
 
