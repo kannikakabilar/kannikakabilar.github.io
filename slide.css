@@ -14,7 +14,8 @@ body {
 .myslides7,
 .myslides8,
 .myslides9,
-.myslides10 {
+.myslides10,
+.myslides11 {
   display: none
 }
 img {
@@ -82,7 +83,8 @@ img {
 .dot7,
 .dot8,
 .dot9,
-.dot10 {
+.dot10,
+.dot11 {
   cursor: pointer;
   height: 15px;
   width: 15px;
