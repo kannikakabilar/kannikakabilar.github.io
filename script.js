@@ -592,6 +592,34 @@ function showSlides10(n) {
   dots[slideIndex10 - 1].className += " active";
 }
 
+var slideIndex11 = 1;
+showSlides11(slideIndex11);
+function plusSlides11(n) {
+  showSlides11(slideIndex11 += n);
+}
+function currentSlide11(n) {
+  showSlides11(slideIndex11 = n);
+}
+function showSlides11(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides11");
+  var dots = document.getElementsByClassName("dot11");
+  if(n > slides.length) {
+    slideIndex11 = 1
+  }
+  if(n < 1) {
+    slideIndex11 = slides.length
+  }
+  for(i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for(i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex11 - 1].style.display = "block";
+  dots[slideIndex11 - 1].className += " active";
+}
+
 ///////////////////////////////////////
 ///////////////////////////////////////
 ///////////////////////////////////////
